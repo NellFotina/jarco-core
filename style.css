@@ -1,0 +1,23 @@
+/*!
+Theme Name: Jarco Core
+Theme URI: https://jar.co.ua/
+Author: Nelia Fotina
+Author URI: https://jar.co.ua/
+Description: Базовая родительская тема (Engine) для брендов компании Jarco (Baba Shura, Fermerske Pole и др.). Включает общую бизнес-логику, поддержку WooCommerce и SMTP.
+Version: 1.0.0
+GitHub Theme URI: https://github.com/NellFotina/jarco-core
+Tested up to: 6.7
+Requires at least: 6.0
+Requires PHP: 8.2
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jarco-core
+Tags: custom-logo, custom-menu, featured-images, translation-ready, woocommerce
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+/* ВНИМАНИЕ: Это родительская тема. 
+   Стили конкретных брендов (цвета, шрифты) нужно писать 
+   в style.css дочерних тем (baba-shura, fermerske-pole).
+*/
