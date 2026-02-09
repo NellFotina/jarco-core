@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	overflow-x: hidden;
+}
+html {
+  font-size: 16px;
+}
+body {
+	font-family: 'Roboto';
+	font-size: 1rem;
+	color: var(--color-2-text);
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	min-width: 20rem;
+	position: relative;
+	font-weight: 400;
+}
+section + section {
+    margin-top: 2.5rem;
+}
+input, label, textarea, button {
+	font-family: 'Roboto';
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: 1.25rem;
+}
+p {
+	margin: 0;
+}
+input, textarea, div {
+	box-sizing: border-box;
+}
+ul {
+	margin: 0;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.container {
+	max-width: 75rem;
+	margin: 0 auto;
+	padding: 0 1.25rem;
+}
+.button {
+	background-color: var(--color-1-btn);
+	display: inline-block;
+	padding: 0.875rem 2.5rem;
+	border-radius: 0.313rem;
+	border: none;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+.button a {
+    color: #4F4A37;
+}
+.button:hover {
+	background-color: var(--color-2-hover);
+}
+.mb-60 {
+	margin-bottom: 3.75rem;
+}
+h2.title {
+	text-align: center;
+    font-size: 2rem;
+	line-height: 1.4;
+    color: var(--color-btn-1);
+    margin: 0 1.25rem 2.5rem;
+    position: relative;
+}
+h2.title::after {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 0.188rem;
+    background: linear-gradient(90deg, #f8d5b3, #e6a67b);
+    margin: 0.938rem auto 0;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+/* Global Styles END */
